@@ -1,0 +1,37 @@
+/* Give entire document flex property */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER SECTION */
+
+/* removes bullet points and adjusts spacing */
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type:none;
+}
+
+/* removes underline/changes text color */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* sets header logo to left with other three links to the right */
+.left-links, .right-links {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+  }
+
+/* HERO SECTION */
+
+/* TESTIMONIAL SECTION */
+
+/* QUOTE SECTION */
+
+/* ACTION SECTION */
+
+/* FOOTER */
