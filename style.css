@@ -1,25 +1,52 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Give entire document flex property */
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 /* HEADER SECTION */
 
-/* removes bullet points and adjusts spacing */
+.header, .footer {
+    background-color: #1f2937;
+}
+
+a, .footer {
+    color: #f9faf8;
+}
+
+.header {
+    padding: 0 100px;
+}
+
+.left-links {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.right-links {
+    font-size: 0.9em;
+}
+
+/* removes bullet points and adjusts spacing between left link and right links */
 ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     list-style-type:none;
+    padding: 0;
 }
 
 /* removes underline/changes text color */
 a {
   text-decoration: none;
-  color: black;
 }
 
-/* sets header logo to left with other three links to the right */
+/* puts display to flex to get links in a row instead of column */
 .left-links, .right-links {
     display: flex;
     gap: 20px;
