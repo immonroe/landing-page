@@ -20,8 +20,8 @@ a, .footer, .hero-section, button {
     color: #f9faf8;
 }
 /* Adjusts the padding of the text in various sections of document */
-.header, .hero-section {
-    padding: 0 100px;
+.header {
+    padding: 0 300px;
 }
 
 .left-links {
@@ -59,6 +59,7 @@ a {
     background-color: #1f2937;
     display: flex;
     justify-content: space-between;
+    padding: 100px 300px;
 }
 
 .hero-left {
