@@ -15,12 +15,12 @@ body {
 .header, .footer {
     background-color: #1f2937;
 }
-
-a, .footer {
+/* Making one property to chkange the text to a certain color */
+a, .footer, .hero-section {
     color: #f9faf8;
 }
-
-.header {
+/* Adjusts the padding of the text in various sections of document */
+.header, .hero-section {
     padding: 0 100px;
 }
 
@@ -54,6 +54,28 @@ a {
   }
 
 /* HERO SECTION */
+
+.hero-section {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+button {
+
+}
+
+img {
+    height: 300;
+    width: 400;
+}
 
 /* TESTIMONIAL SECTION */
 
