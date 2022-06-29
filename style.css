@@ -16,7 +16,7 @@ body {
     background-color: #1f2937;
 }
 /* Making one property to chkange the text to a certain color */
-a, .footer, .hero-section {
+a, .footer, .hero-section, button {
     color: #f9faf8;
 }
 /* Adjusts the padding of the text in various sections of document */
@@ -29,7 +29,7 @@ a, .footer, .hero-section {
     font-weight: bold;
 }
 
-.right-links {
+.right-links, .hero-left p {
     font-size: 18px;
 }
 
@@ -76,12 +76,15 @@ h1 {
 }
 
 .hero-left p {
-    font-size: 18px;
     margin: 0 0 10px 0;
 }
 
 button {
-
+    background-color: #3882f6;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    border: none;
 }
 
 img {
