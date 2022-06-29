@@ -25,12 +25,12 @@ a, .footer, .hero-section {
 }
 
 .left-links {
-    font-size: 1.1em;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .right-links {
-    font-size: 0.9em;
+    font-size: 18px;
 }
 
 /* removes bullet points and adjusts spacing between left link and right links */
@@ -65,7 +65,19 @@ a {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 400px;
+    width: 450px;
+}
+
+h1 {
+    font-size: 48px;
+    font: 700;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.hero-left p {
+    font-size: 18px;
+    margin: 0 0 10px 0;
 }
 
 button {
