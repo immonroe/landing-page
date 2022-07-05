@@ -108,6 +108,14 @@ img {
     display: flex;
 }
 
+.square {
+    /* background: red; */
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    outline: 2px solid #3882f6;
+  }
+
 /* QUOTE SECTION */
 
 /* ACTION SECTION */
