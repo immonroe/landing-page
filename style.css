@@ -94,6 +94,20 @@ img {
 
 /* TESTIMONIAL SECTION */
 
+.testimonial-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-title {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+}
+
 /* QUOTE SECTION */
 
 /* ACTION SECTION */
