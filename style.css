@@ -113,15 +113,15 @@ img {
 .container {
     display: flex;
     flex-direction: column;
-    width: 100px;
-    padding: 20px;
+    width: 150px;
+    padding: 40px;
     text-align: center;
 }
 
 .square {
     /* background: red; */
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 5px;
     outline: 2px solid #3882f6;
   }
@@ -133,6 +133,22 @@ img {
   }
 
 /* WISDOM SECTION */
+
+.wisdom-section {
+    background: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font: 1,300;
+    font-weight: 100;
+    display: flex;
+    margin: 0 300px;
+}
+
+.author{
+    display: flex;
+}
 
 /* ACTION SECTION */
 
