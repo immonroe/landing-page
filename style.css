@@ -1,7 +1,5 @@
 * {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 /* Give entire document flex property */
@@ -121,7 +119,6 @@ img {
 }
 
 .square {
-    /* background: red; */
     width: 150px;
     height: 150px;
     border-radius: 5px;
@@ -171,20 +168,17 @@ img {
     border-radius: 5px;
 }
 
-/* .action-info {
-    display: flex;
-    flex-direction: row;
-} */
-
-.action-title {
-
+.action-title h2 {
+    margin: 0;
+    padding: 0;
 }
 
-.action-content {
-
+.action-content p {
+    margin: 0;
+    padding: 0;
 }
 
-button {
+.button button {
     font: 500;
     font-size: 16px;
     border-radius: 5px;
@@ -194,6 +188,7 @@ button {
 .button {
     display: flex;
     align-items: center;
+    
 }
 
 /* FOOTER */
