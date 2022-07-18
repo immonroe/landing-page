@@ -1,5 +1,7 @@
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 /* Give entire document flex property */
@@ -161,7 +163,12 @@ img {
 .action-section {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    background: #3882f6;
+    margin: 50px 300px;
+    padding: 25px 100px;
+    color: #f9faf8;
+    border-radius: 5px;
 }
 
 /* .action-info {
@@ -178,7 +185,15 @@ img {
 }
 
 button {
+    font: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #f9faf8;
+}
 
+.button {
+    display: flex;
+    align-items: center;
 }
 
 /* FOOTER */
