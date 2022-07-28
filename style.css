@@ -102,6 +102,7 @@ img {
 .testimonial {
     display: flex;
     justify-content: center;
+    /* justify-content: space-between; this would be more ideal but I like the fixed padding more since I am not using media quieries atm */
     padding-bottom: 20px;
 }
 
