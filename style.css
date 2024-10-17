@@ -100,6 +100,7 @@ a {
 .testimony-content {
     display: flex;
     flex-direction: column;
+    padding-bottom: 7rem;
 }
 
 .testimonial-title {
@@ -126,4 +127,33 @@ a {
     text-wrap: pretty;
     width: 10rem;
     color: #1f2937;
+}
+
+/* quote */
+
+.quote-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    gap: 1rem;
+    padding: 10rem 27.5rem;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author-container {
+    display: flex;
+    margin: 0 3rem 0 auto;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 24px;
 }
