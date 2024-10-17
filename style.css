@@ -84,6 +84,7 @@ a {
     background-color: #3882f6;
     border: none;
     border-radius: .5rem;
+    font-weight: bold;
 }
 
 /* Testimonial */
@@ -107,15 +108,22 @@ a {
     font-weight: bold;
 }
 
-.quote-container {
+.testimony-container {
     display: flex;
     justify-content: center;
     gap: 3rem;
 }
 
-.quote {
+.testimony {
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 1rem;
+}
+
+.character-quote {
+    display: flex;
+    text-wrap: pretty;
+    width: 10rem;
+    color: #1f2937;
 }
