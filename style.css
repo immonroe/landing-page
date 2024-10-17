@@ -7,6 +7,13 @@ body {
 
 .header-container {
     display: flex;
+    background-color: #1f2937;
+    flex-direction: column;
+    padding: 0 10rem;
+}
+
+.nav-content {
+    display: flex;
     justify-content: space-between;
     padding: 0 10rem;
     background-color: #1f2937;
@@ -38,7 +45,7 @@ a {
 /* hero */
 
 .hero-content {
-    background-color: #1f2937;
+    
     color: #f9faf8;
     padding: 0 10rem;
     display: flex;
