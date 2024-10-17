@@ -45,16 +45,18 @@ a {
 /* hero */
 
 .hero-content {
-    
     color: #f9faf8;
     padding: 0 10rem;
     display: flex;
     flex-direction: row;
+    margin: 5rem 0;
+    gap: 5rem;
 }
 
-.placeholder-image {
-    background-color: #e5e7eb;
-
+.hero-image {
+    width: auto;
+    height: 250px;
+    border: solid white 1px;
 }
 
 .hero-main-text {
@@ -68,3 +70,52 @@ a {
     color: #e5e7eb;
 }
 
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.hero-button {
+    width: 8rem;
+    height: 2.5rem;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    border-radius: .5rem;
+}
+
+/* Testimonial */
+
+.character-image {
+    object-fit: cover;
+    height: 10rem;
+    width: 10rem;
+    border: solid #3882f6 .3rem;
+    border-radius: 1rem;
+}
+
+.testimony-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
